@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;  
+    color: black;
+}
+
+.imgposter img {
+    width: 100%;
+    height: 200px;
+
+}
+/* class menubar */
+.menubar {
+    width: 100%;
+    height: 100px;
+    background: #444444;
+}
+.nav {
+    float: left;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav li{
+    float: left;
+    transition: 0.4s;
+}
+
+.nav a{
+    color: white;
+}
+
+.nav i{
+    font-size: 60px;
+    
+}
+
+.nav i:hover{
+    color: #888888;
+}
+/* class menubar */
+.col img{
+    float: left;
+    height: 30em;
+    margin: 25px 50px;
+}
+
+
+
+
+
+
