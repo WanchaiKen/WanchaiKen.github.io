@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MyHomepage</title>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"> 
 </head>
@@ -12,16 +13,52 @@
     <div class="imgposter">
         <img src="img/75850.jpg" alt="Responsive image">
     </div>
-    <div class="menubar">
+    <!-- <div class="menubar">
         <div class="container">
             <div class="nav">
                 <ul>
-                    <li style="margin: 45px;"><a href="index.html">Home</a></li>
+                    <li style="margin: 45px;"><a href="mymenu.html">Home</a></li>
                     <li style="margin: 45px;"><a href="p-aboutme.html">About Me</a></li>
                     <li style="margin: 45px;"><a href="contant1.html">My Content</a></li>
                 </ul>
             </div>
         </div>
+    </div> -->
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color: #444;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">KW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="p-aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contant1.html">Contant</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
+<div class="container">
+    <div class="col">
+        <h1 class="display-4" style="margin: 15px">WHAT NEW</h1>
+    </div>
+    <hr>
+    <div class="card" style="width: 18rem; margin-left: 20px;">
+        <img src="img/bg-css.jpg" class="card-img-top" alt="Responsive image">
+        <div class="card-body">
+          <h5 class="card-title">CSS SPECIFCITY คืออะไร</h5>
+          <p class="card-text">css Specifcity เป็นเทคนิคในการเลือกใช้งาน css selector ที่มีความสำคัญ...</p>
+          <a href="contant1.html" class="btn btn-outline-dark">READ MORE</a>
+          <!-- <button type="button" class="btn btn-outline-dark">Dark</button> -->
+        </div>
+      </div>
+</div>
 </body>
 </html>

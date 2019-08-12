@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -19,29 +20,29 @@ p {
     height: 100px;
     background: #444444;
 }
-.nav {
+.bottombar {
     float: left;
 }
 
-.nav ul {
+.bottombar ul {
     list-style: none;
 }
 
-.nav li{
+.bottombar li{
     float: left;
     transition: 0.4s;
 }
 
-.nav a{
+.bottombar a{
     color: white;
 }
 
-.nav i{
+.bottombar i{
     font-size: 60px;
     
 }
 
-.nav i:hover{
+.bottombar i:hover{
     color: #888888;
 }
 /* class menubar */
